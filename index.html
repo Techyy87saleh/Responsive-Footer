@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Responsive Footer</title>
+</head>
+<body>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .head{
+            display:flex;
+            justify-content: center;
+            color:#5f27cd;
+        }
+        .footer h1{
+            line-height:3rem;
+            text-decoration:4px solid #ffff underline;
+            text-decoration-thickness: 30%;
+            color:#ffff;
+ 
+ 
+              
+            
+            
+         }
+        .footer{
+            line-height:1.8rem;
+        }
+        .footer p{
+            width:250px;
+            
+            line-height: 1.9rem;
+             font-size:1.1rem;
+             text-align:inherit;           
+              padding:0.2rem;            
+              color:#ffff;
+
+
+
+
+
+        }
+        .links h1{
+            line-height:3rem;
+            text-decoration:4px solid #ffff underline;
+            text-decoration-thickness: 40%;
+            padding:0.2rem;
+            color:#ffff;
+
+
+        }
+        .shop h1{
+            line-height:3rem;
+            text-decoration:4px solid #ffff underline;
+            text-decoration-thickness: 30%;
+            padding:0.2rem;
+            color:#ffff;
+
+        }
+        .contact h1{
+            line-height:3rem;
+            text-decoration:4px solid #ffff underline;
+            text-decoration-thickness: 30%;
+             padding:0.3rem;
+ 
+
+        }
+        .links li{
+            list-style-type:none;
+            line-height:1.9rem;
+            padding:0.2rem;
+            color:#ffff;
+
+
+
+        
+
+        }
+        .shop li{
+            list-style-type:none;
+            line-height:1.9rem;
+            padding:0.2rem;            
+            color:#ffff;
+
+
+        }
+        .contact h1{
+            color:#ffff;
+        }
+        .contact p{
+            line-height:2.5rem;
+            padding:0.2rem;
+            color:#ffff;
+
+
+            
+        }
+         
+         
+        .container{
+            padding:5rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap:10px;
+            background:#5f27cd;
+        }
+
+        @media(max-width:1150px){
+            .container{
+                display:grid;
+                grid-template-columns: auto auto;
+               }
+        }
+        @media(max-width:626px){
+            .container{
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+             }
+        }
+             
+    
+    </style>
+    <div class = "head">
+    <h1>CSS Grid Only Responsive Footer</h1>
+    </div>
+    <div class = "container">
+     <div class = "footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, provident perferendis odit magnam aliquid consequuntur!</p>
+    <i class="fa fa-facebook-f" style="font-size:36px;color:skyblue"></i>
+    <i class="fa fa-twitter" style="font-size:36px;color:skyblue"></i>
+    <i class="fa fa-instagram" style="font-size:36px;color:skyblue"></i>
+    <i class="fa fa-youtube-play" style="font-size:36px;color:skyblue"></i>
+    </div> 
+
+    <div class = "links">
+
+    <h1>Quick Links</h1>
+    <p><li>About</li></p>
+    <p><li>FAQ</li></p>
+    <p><li>Privacy Policy</li></p>
+    <p><li>Help</li></p>
+    <p><li>Terms and Conditions</li></p>
+    <p><li>Contact</li></p>
+</div>
+
+<div class = "shop">
+    <h1>Shop</h1>
+    <p><li>Man</li></p>
+    <p><li>Woman</li></p>
+    <p><li>Children</li></p>
+    <p><li>Shoes</li></p>
+    <p><li>Clothing</li></p>
+    <p><li>Watch</li></p>
+
+</div>
+
+<div class = "contact">
+
+   <h1>Contact Us</h1>
+    <p><i class="fa fa-map-marker" style="font-size:36px"></i> &nbsp;&nbsp; 647 Lindo Street Phoenizvilla,PA 19460,USA</p>
+    <p><i class="fa fa-phone" style="font-size:36px"></i>&nbsp;&nbsp; +1234 567 8900</p>
+    <p><i class="fa fa-envelope" style="font-size:36px"></i>&nbsp;&nbsp; salehimtiaz59@gmail.com</i></p>
+
+</div>
+
+
+     </div>
+</body>
+</html>
